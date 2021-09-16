@@ -21,7 +21,7 @@ public class HelloTest {
 	public void beforeTest() {
 		/*	System.setProperty("webdriver.gecko.driver", "resources\\geckodriver32.exe");
 		driver = new FirefoxDriver();*/
-		System.setProperty("webdriver.chrome.driver","resources\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Downloads\\chromedriver.exe");
 		driver = new ChromeDriver();
 		/*driver.get("http://localhost:8080/HelloWorld.war/");*/
 		driver.get("http://localhost:8087/HelloWorld.war/");
